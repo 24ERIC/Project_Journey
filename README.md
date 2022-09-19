@@ -19,7 +19,7 @@ Eric's project jouney starts from Sep 18, 2022 and will ends at 2100.
 
 
 ## Each Project Folder Includes:
-Detail.txt
+Detail.md
 
     Before starting the project:
     
@@ -33,12 +33,29 @@ Detail.txt
     
       * Final review (What I did good or What I can improve)
     
-Plan.txt
+Plan.md
 
     * The software design
     
     * Manage project into pieces with deadline
 
 
-## 1 - Folder Tree
+## Folder Tree
 
+```
+.
+└── Project_Journey
+    ├── LICENSE
+    ├── Proj TEMP
+    │   ├── Detail.md
+    │   └── Plan.md
+    ├── Projects
+    │   ├── Proj1 Mad_Libs
+    │   │   ├── Detail.md
+    │   │   ├── Mad_Libs.py
+    │   │   └── Plan.md
+    │   └── Proj2 Guess_the_Number_Game_(computer)
+    │       ├── Detail.md
+    │       └── Plan.md
+    └── README.md
+```
