@@ -40,10 +40,13 @@ Plan.md
     * Manage project into pieces with deadline
 
 
-## Folder Tree
-
+# Folder Tree
+```bash
+  make tree
 ```
-.
+
+!- Folder Tree Start -!
+```
 └── Project_Journey
     ├── LICENSE
     ├── Proj TEMP
@@ -59,3 +62,6 @@ Plan.md
     │       └── Plan.md
     └── README.md
 ```
+!- Folder Tree End -!
+
+
