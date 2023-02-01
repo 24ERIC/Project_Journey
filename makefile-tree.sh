@@ -1,11 +1,17 @@
 #!usr/bin/env bash
 
 file="README.md"
+# target="Folder-Tree-Start"
 
+target="Folder-Tree-Start"
 while read -r line; do
-    echo -e "$line\n"
+    if (($target==$target)); then
+        # tree | tail -n +2 1>> test.txt
+        cat line <(tree)
+        break
+    fi
 done <$file 
 
 
 
-echo "hello first line" 1> Documents/GitHub/Project_Journey/read.md && tree Documents/GitHub/Project_Journey/ | tail -n +2 1> Documents/GitHub/Project_Journey/read.md
+# 
