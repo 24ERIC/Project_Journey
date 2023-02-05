@@ -1,0 +1,26 @@
+ # Brainstorm 👍
+ - familiar with 
+    - js
+    - tailwindcss
+    - react
+    - 3D game develop
+    - run GPU
+    - block chain
+    - vpn, connect network by go multiple host first
+    - vr
+    - 
+    - 
+    - 
+    - 
+    - 
+
+- ideas
+    - collect data on stock
+    - gives data, auto generate graph, and analysis some data
+    - a place everyone can submit their real world problems, and we create software to solve it
+    - scan the room, auto generate 3D room, remember the items in the room at the exact location
+    - 
+    - 
+    - 
+    - 
+    - 
