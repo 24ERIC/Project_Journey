@@ -1,68 +1,32 @@
-# Project_Journey
-Eric's project jouney starts from Sep 18, 2022 and will ends at 2100.
+ # Brainstorm 👍
+ - familiar with 
+    - js
+    - tailwindcss
+    - react
+    - 3D game develop
+    - run GPU
+    - block chain
+        - https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46
+    - vpn, connect network by go multiple host first
+    - vr
+    - web spider
+    - search engine
+    - docker
+        - docker app
+    - Tor and HTTP/SOCKS proxy
+    - database
+    - REST API
+    - 
+    - 
+    - 
 
-
-## Target Steps:
-1 - Projects
-
-2 - Solve Question
-
-3 - Specialization
-
-
-## Detail Steps:
-1 - Try out all kinds of Python, PHP Projects
-
-2 - Solve Questions: Data Structure, Algorithm
-
-3 - Specialization in some of them: (web application development, Unix/Linux, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, and/or security software development.)
-
-
-## Each Project Folder Includes:
-Detail.md
-
-    Before starting the project:
-    
-      * The descripion of the original idea I found
-    
-      * Any features I modified or added
-    
-    After finishing the project:
-    
-      * The skill I practised
-    
-      * Final review (What I did good or What I can improve)
-    
-Plan.md
-
-    * The software design
-    
-    * Manage project into pieces with deadline
-
-
-# Folder Tree
-```bash
-  make tree
-```
-
-
-``` 
-Folder-Tree-Start
-└── Project_Journey
-    ├── LICENSE
-    ├── Proj TEMP
-    │   ├── Detail.md
-    │   └── Plan.md
-    ├── Projects
-    │   ├── Proj1 Mad_Libs
-    │   │   ├── Detail.md
-    │   │   ├── Mad_Libs.py
-    │   │   └── Plan.md
-    │   └── Proj2 Guess_the_Number_Game_(computer)
-    │       ├── Detail.md
-    │       └── Plan.md
-    └── README.md
-Folder-Tree-End
-```
-
-
+- ideas
+    - collect data on stock
+    - gives data, auto generate graph, and analysis some data
+    - a place everyone can submit their real world problems, and we create software to solve it
+    - scan the room, auto generate 3D room, remember the items in the room at the exact location
+    - profile website
+    - ins linktree
+    - 
+    - 
+    - 
