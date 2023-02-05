@@ -1,7 +1,7 @@
 # 👍 Brainstorm ✅ 
 | Project Name | Repo Location | Idea | Info |
 |--------------|---------------|------|------|
-| Fancy Website 👨‍💻 | Fancy-Website | tailwindcss | Try to familiar with tailwindcss in order to create fancywebsite fast |
+| Fancy Website | Fancy-Website | tailwindcss | Try to familiar with tailwindcss in order to create fancywebsite fast |
 |  |  | JS |  |
 |  |  | React |  |
 |  |  | 3D game Develop |  |
