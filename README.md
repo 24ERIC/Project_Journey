@@ -12,13 +12,23 @@
 |  |  | Web Spider |  |
 |  |  | Search Engine |  |
 |  |  | Docker docker app | |
-|  |  | REST API |  |
+|  |  | Web APIs (REST & GraphQL) |  |
 |  |  |  collect data on stock |  |
 |  |  | gives data, auto generate graph, and analysis some data ||
 |  |  |  a place everyone can submit their real world problems, and create software to solve it |  |
 |  |  |  scan the room, auto generate 3D room, remember the items in the room at the exact location ||
 |  |  |  profile website |  |
 |  |  |  ins linktree |  |
+|  |  | ChatGPT | https://mp.weixin.qq.com/s/9YvKC00McwYRvPBoM5PESQ |
+|  |  | web3 |  |
+|  |  | CI/CD |  |
+|  |  | Cloud Computing |  |
+|  |  | Computer Vision |  |
+|  |  | Compiler / Programming Language Design |  |
+|  |  | Databases (Design & Architecture) |  |
+|  |  | DevOps |  |
+|  |  | Shell Scriptin |  |
+|  |  |  |  |
 
 
 
