@@ -1,12 +1,6 @@
 # 👍 Brainstorm ✅ 
 | Project Name | Repo Location | Idea | Info |
 |--------------|---------------|------|------|
-| Fancy Website | Fancy-Website | tailwindcss | Try to familiar with tailwindcss in order to create fancywebsite fast |
-|  |  | JS |  |
-|  |  | React |  |
-|  |  | 3D game Develop |  |
-|  |  | Manipulate GPU |  |
-|  |  | Block Chain | https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46 | |
 |  |  | Tor Network | vpn, connect network by go multiple host first, HTTP/SOCKS proxy ||
 |  |  | VR |  |
 |  |  | Web Spider |  |
@@ -29,7 +23,7 @@
 |  |  | DevOps |  |
 |  |  | Shell Scriptin |  |
 |  |  | DeSo, NFT,  | DeSo is a great way to mint, display and auction your NFTs. Using the DeSo Developer Hub, or any DeSo resource, create an NFT gallery utilizing the DeSo API Get NFT Showcase endpoint! |
-|  |  |  |  |
+|  |  | practise js |  |
 |  |  |  |  |
 |  |  |  |  |
 
