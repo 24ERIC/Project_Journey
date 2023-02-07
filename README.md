@@ -1,7 +1,7 @@
 # 👍 Brainstorm ✅ 
 | Project Name | Repo Location | Idea | Info |
 |--------------|---------------|------|------|
-| Fancy Website | [Fancy-Website](./Fancy-Website/fancy-website-readme.md) | tailwindcss | Try to familiar with tailwindcss in order to create fancywebsite fast |
+| Fancy Website | Fancy-Website | tailwindcss | Try to familiar with tailwindcss in order to create fancywebsite fast |
 |  |  | JS |  |
 |  |  | React |  |
 |  |  | 3D game Develop |  |
@@ -28,6 +28,9 @@
 |  |  | Databases (Design & Architecture) |  |
 |  |  | DevOps |  |
 |  |  | Shell Scriptin |  |
+|  |  | DeSo, NFT,  | DeSo is a great way to mint, display and auction your NFTs. Using the DeSo Developer Hub, or any DeSo resource, create an NFT gallery utilizing the DeSo API Get NFT Showcase endpoint! |
+|  |  |  |  |
+|  |  |  |  |
 |  |  |  |  |
 
 
