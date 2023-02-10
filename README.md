@@ -10,4 +10,4 @@
 | 6 | [my-panda-pal](https://github.com/24ERIC/my-panda-pal) | MLH In-person Hackathon - Queens Unversity - Digital World | Jan.28-30 2023 | 4 |
 | 7 | [Watch-Your-Mouth](https://github.com/24ERIC/Watch-Your-Mouth) | MLH Online Hackathon - Hack the Future | Feb.3-5 2023 | 3 |
 | 8 | [WeatherTracking](https://github.com/24ERIC/WeatherTracking) | MLH Online Hackathon - Global Hack Week | Feb.6-9 2023 | 2 |
-| 9 | [hiWireshark](https://github.com/24ERIC/hiWireshark) | I can't use some feature in wireshark, so I try to create one by myself | Feb.2023 - ??? |
+| 9 | [hiWireshark](https://github.com/24ERIC/hiWireshark) | I can't use some feature in wireshark, so I try to create one by myself | Feb.2023 - ??? | 1 |
