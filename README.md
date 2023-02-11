@@ -11,3 +11,4 @@
 | 7 | [Watch-Your-Mouth](https://github.com/24ERIC/Watch-Your-Mouth) | MLH Online Hackathon - Hack the Future | Feb.3-5 2023 | 3 |
 | 8 | [WeatherTracking](https://github.com/24ERIC/WeatherTracking) | MLH Online Hackathon - Global Hack Week | Feb.6-9 2023 | 2 |
 | 9 | [hiWireshark](https://github.com/24ERIC/hiWireshark) | I can't use some feature in wireshark, so I try to create one by myself | Feb.2023 - ??? | 1 |
+| 10 | [Auto-Genetate-Makefile-for-C](https://github.com/24ERIC/Auto-Genetate-Makefile-for-C) | Repetitive work for create Makefile each time, the project save your time and provide you the best experience for coding c scrpit. | Feb.10-11 2023 | 1 |
