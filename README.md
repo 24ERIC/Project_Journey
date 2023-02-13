@@ -13,3 +13,12 @@
 | 9 | ✅ | [Auto-Genetate-Makefile-for-C](https://github.com/24ERIC/Auto-Genetate-Makefile-for-C) | This project automaticly geenrate Makefile and files with ".h" extension for developer in order to save developers' time during testing and creating new thing. | Feb.11-12 2023 | 1 |
 | 10 | 👨‍💻 | [hiWireshark](https://github.com/24ERIC/hiWireshark) | I can't use some feature in wireshark, so I try to create one by myself | Feb.10-??? 2023 | 1 |
 |  |  |  |  |  |  |
+
+
+# 💡 Ideas
+
+| Area |  Idea Detail | Challenge | Potential |
+|------|--------------|-----------|-----------|
+| Web Crawl, Github Store |  |  |  |
+|  |  |
+|  |  |
