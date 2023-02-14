@@ -1,7 +1,7 @@
 # 😎 Eric Zhou's Honour Project Journey 👨‍💻
 
-| # | Process | Project Name | Berief Description | Period | Number of People in Development Team |
-|---|---------|--------------|--------------------|--------|--------------------------------------|
+| # | Process | Project Name | Berief Description | Period | # of People in Team |
+|---|---------|--------------|--------------------|--------|---------------------|
 | 1 | ✅ | [Py_Modules](https://github.com/24ERIC/Py_Modules) | Use python to solve high school math and physics problems | Dec.2020 - Feb.2021 | 1 |
 | 2 | ✅ | [essay_reference](https://github.com/24ERIC/essay_reference) | As I can't find any good essay reference manage software, so I try to create one | Jan.2022 - Mar.2022 | 1 |
 | 3 | ✅ | [official_website](https://github.com/24ERIC/official_website) | Official website for UT021, club in University of Toronto | Oct.15 2022 - Dec.25 2022 | 6 |
@@ -13,12 +13,7 @@
 | 9 | ✅ | [Auto-Genetate-Makefile-for-C](https://github.com/24ERIC/Auto-Genetate-Makefile-for-C) | This project automaticly generate Makefile and files with ".h" extension for developer in order to save developers' time during testing and creating new thing. | Feb.11-12 2023 | 1 |
 | 10 | 👨‍💻 | [hiWireshark](https://github.com/24ERIC/hiWireshark) | I can't use some feature in wireshark, so I try to create one by myself | Feb.10-??? 2023 | 1 |
 |  |  |  |  |  |  |
-
-
-# 💡 Ideas
-
-| Area |  Idea Detail | Challenge | Potential |
-|------|--------------|-----------|-----------|
-| Web Crawl, Github Store |  |  |  |
-|  |  |
-|  |  |
+| # | 💡 | name | Detail | Date | # |
+| # | 💡 | name | Web Crawl, Github Store | Date | # |
+| # | 💡 | name | my notion space, online, github store | Date | # |
+| # | 💡 | name | Detail | Date | # |
