@@ -14,6 +14,8 @@
 | cookie, js, react| 
 | XML |
 | block chain |
+| compiler |
+| DevOps |
 |  |
 
 
@@ -30,6 +32,13 @@
 | Research |
 |----------|
 | Free database with website, (github website is free, but no database allowed) |
+| use python do a compiler, or use c? |
+| what is devops |
+|  |
+
+| Resource |
+|----------|
+| [lots of projects](https://www.indeed.com/career-advice/finding-a-job/software-development-project) |
 |  |
 |  |
 |  |
