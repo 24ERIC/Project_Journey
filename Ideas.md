@@ -1,6 +1,7 @@
 # Ideas
 | Good Idea |
 |-----------|
+| react, tailwind css, material ui, express.js |
 | Web Crawl, Github Store | 
 | my notion space, online, github store | 
 | walmart, tnt prize detection, item category |
