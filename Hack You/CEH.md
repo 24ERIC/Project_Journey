@@ -1,0 +1,17 @@
+- networks
+    - wired
+    - wireless
+- operating systems
+    - Windows
+    - Linux
+    - firewalls
+    - file systems
+    - permissions
+    - server
+    - workstations
+- tools
+    - Metasploit
+    - Invicti
+    - formerly Netsparker
+    - OpenVAS
+    
