@@ -17,10 +17,20 @@
 - 
 
 
-# How Data Mining Works 
+# Data Mining Process 
 - 
 - 
 - 
 - 
 - 
+- 
+
+
+
+# What Data Mining Can do 
+- database marketing
+- credit risk management
+- fraud detection
+- spam Email filtering
+- discern the sentiment or opinion of users
 - 
