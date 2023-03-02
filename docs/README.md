@@ -12,43 +12,7 @@
 
 
 # Table of Knowledge 🥸
-- 😉 Hack You
-    - Network
-        - wired
-        - wireless
-    - Operating System
-        - Windows
-        - Linux
-        - firewalls
-        - file systems
-        - permissions
-        - server
-        - workstations
-    - Tools
-        - Metasploit
-        - Invicti
-        - formerly Netsparker
-        - OpenVAS
-    - Introduction to Ethical Hacking
-    - Footprinting and Reconnaissance
-    - Scanning Networks
-    - Enumeration
-    - Vulnerability Analysis
-    - System Hacking
-    - Malware Threats
-    - Sniffing
-    - Social Engineering
-    - Denial of Service
-    - Session Hijacking
-    - Evading IDS, Firewalls, and Honeypots
-    - Hacking Web Servers
-    - Hacking Web Applications
-    - SQL Injection
-    - Hacking Wireless Networks
-    - Hacking Mobile Platforms
-    - Hacking IoT and OT Hacking
-    - Cloud Computing
-    - Cryptography
+
 - 🤖 ML + AI
     - Basis
         - Database Basics
@@ -123,6 +87,112 @@
                 - Tabeau
                 - PowerBI
     - Machine Learning
+        - Concepts, inpus, attributes
+            - categorical variables
+            - ordinal variables
+            - nnumerical variables
+        - General
+            - cost functions and fradient descent
+            - overfitting / underfitting
+            - training, validation and test data
+            - precision vs recall
+            - dias, variance
+            - life
+        - Methods
+            - Supervised Learning
+                - Regression
+                - Liear Regression
+                - Poisson Regression
+                - Classification
+                - Calssification Rate
+                - Logistic Regression
+                - Native Bayes Classifiers
+                - K-Nearest Neighbour
+                - SVM
+                - Gaussian Misture Models
+            - Unsupervised Learning
+                - Clustering
+                    - Hierarchical Clustering
+                    - K-Means Clustering
+                    - DBSCAN
+                    - HDBSCAN
+                    - Fuzzy C-Means
+                    - Mean Shift
+                    - Agglomerative
+                    - OPTICS
+                - Association Rule Learning
+                    - Aprion Algorithm
+                    - ECLAT algorithm
+                    - FP Trees
+                - Dimensionality Reduction
+                    - Principal Component Analysis (PCA)
+                    - Random Projection
+                    - NMF
+                    - T-SNE
+                    - UMAP
+            - Ensemble Learning
+                - Boosting
+                - Bagging
+                - Stacking
+            - Reinforcement Learning
+                - Q-Learning
+        - Use Cases
+            - Sentiment Anslysis
+            - Collaborative Filtering
+            - Tagging
+            - Prediction
+        - Tools
+            - Important libraries
+                - scikit-learn
+                - spacy (NLP)
+    - Deep Learning
+        - Neural Networks
+            - Understanding Neurl Networks
+            - Loss Functions
+            - Activation Functions
+            - Weight Initialization
+            - Vanishing / Exploding Gradient Problem
+        - Architecttures
+            - Feedforward neural network
+            - Autoencoder
+            - Convolutional Neural Network (CNN)
+                - Pooling
+            - Recurrent Neural Network (RNN)
+                - LSTM
+                - GRU
+            - Transformer
+                - Encoder
+                - Decoder
+                - Attention
+            - Siamese Network
+            - Generative Adversarial Network (GAN)
+            - Evolving Architectures / NEAT
+            - Residual Connections
+        - Training
+            - Optimizers
+                - SGD
+                - Momentum
+                - Adam
+                - AdaGrad
+                - AdaDelta
+                - Nadam
+                - RMSProp
+            - Learning Rate Schedule
+            - Batch Normalization
+            - Batch Size Effects
+            - Reggularization
+                - Early Stopping
+                - Dropout
+                - Parameter Panelties
+                - Parameter Penalties
+                - Data Augmentation
+                - Adversarial Training
+            - Multitask Learning
+            - Transfer Learning
+            - Curriculum Learning
+        - Tools
+            - 
+        - 
     - Statistics
         - Basic Theorems
         - Probability - Intro
@@ -161,24 +231,40 @@
         - Reaction Diffusion
         - Morphogenesis
         - Reaction Diffusion
-
-
-
-
-
-
-
-
-
-
-
-1. Cipher Knights
-1. Phantom Hackers
-1. Codebreakers Elite
-1. Cyber Crusaders
-1. Digital Titans
-1. Binary Bandits
-1. Shadow Syndicate
-1. Tech Savants
-1. Hacktivists United
-1. Byte Brigade
+- 😉 Hack You
+    - Network
+        - wired
+        - wireless
+    - Operating System
+        - Windows
+        - Linux
+        - firewalls
+        - file systems
+        - permissions
+        - server
+        - workstations
+    - Tools
+        - Metasploit
+        - Invicti
+        - formerly Netsparker
+        - OpenVAS
+    - Introduction to Ethical Hacking
+    - Footprinting and Reconnaissance
+    - Scanning Networks
+    - Enumeration
+    - Vulnerability Analysis
+    - System Hacking
+    - Malware Threats
+    - Sniffing
+    - Social Engineering
+    - Denial of Service
+    - Session Hijacking
+    - Evading IDS, Firewalls, and Honeypots
+    - Hacking Web Servers
+    - Hacking Web Applications
+    - SQL Injection
+    - Hacking Wireless Networks
+    - Hacking Mobile Platforms
+    - Hacking IoT and OT Hacking
+    - Cloud Computing
+    - Cryptography
