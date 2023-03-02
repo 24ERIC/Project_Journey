@@ -2,6 +2,7 @@
 git add . && git commit -m "update" && git push
 👨‍💻
 ✅ 
+https://github.com/24ERIC/Project_Journey/blob/master/docs/
 
 - [Prject Learn - all category](https://awesomeopensource.com/project/practical-tutorials/project-based-learning#python)
 - [AI Project - 500 - SourceCode](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)
@@ -243,7 +244,7 @@ git add . && git commit -m "update" && git push
         - Reaction Diffusion
 - # 😉 Hack You 😉
     - ## Introduction to Ethical Hacking
-        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md]()
+        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](https://github.com/24ERIC/Project_Journey/blob/master/docs/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
     - ## Footprinting and Reconnaissance
     - ## Scanning Networks
     - ## Enumeration
