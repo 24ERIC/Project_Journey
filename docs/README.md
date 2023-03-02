@@ -244,9 +244,7 @@ https://github.com/24ERIC/Project_Journey/blob/master/docs/
         - Reaction Diffusion
 - # 😉 Hack You 😉
     - ## Introduction to Ethical Hacking
-        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](https://github.com/24ERIC/Project_Journey/blob/master/docs/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
         - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
-        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](./1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
     - ## Footprinting and Reconnaissance
     - ## Scanning Networks
     - ## Enumeration
