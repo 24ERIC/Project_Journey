@@ -37,6 +37,7 @@ https://github.com/24ERIC/Project_Journey/blob/master/docs/
         - Virtual Environments
     - ## Data Sources
         - Data Mining
+            - [👨‍💻2-Data-Mining.md](./2-Data-Mining.md)
         - Web Scraping
         - Awesome Public Dataset
         - Kaggle
