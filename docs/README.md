@@ -1,7 +1,7 @@
 <!-- 
 # Commands
 ```bash
-    git add * && git commit -m "add" && git push
+    git add . && git commit -m "update" && git push
 ```
 # emojs
 👨‍💻
