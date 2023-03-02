@@ -172,3 +172,13 @@
 
 
 
+1. Cipher Knights
+1. Phantom Hackers
+1. Codebreakers Elite
+1. Cyber Crusaders
+1. Digital Titans
+1. Binary Bandits
+1. Shadow Syndicate
+1. Tech Savants
+1. Hacktivists United
+1. Byte Brigade
