@@ -262,6 +262,77 @@ git add . && git commit -m "update" && git push
     - ## Hacking IoT and OT Hacking
     - ## Cloud Computing
     - ## Cryptography
+    - ## Penetrarion testing
+        - social engineering peneration testing
+            - targets
+                - user / clients
+                - system administrators
+                - vendors
+                - helpdesk / Techsupport
+            - types
+                - black box
+                - white box
+            - phishing
+                - phishing frenzy.com
+                - gophish
+            - active (physical)
+                - dumpster driver
+                - shouldshurfing
+                - piggybacking
+                - usb drop
+        - web application penetration testing
+            - network peneration testing
+                - internal
+                - external
+                - perimeter devices
+            - database penetration testing
+            - wireless peneration testing
+                - wlan
+                - rfid
+                - nfc
+                - mobile device
+                - iot
+            - cloud penetration testing
+            - methodologies
+            - propietary
+                - ibm
+                - iss
+                - mcafee
+                - ec-councils Ipt
+            - open source
+                - nist
+                - osstmm
+                - issaf
+                - owasp
+            - type of testing
+                - black box
+                    - blind testing
+                    - double blind testing
+                - white box
+                    - announced testing
+                    - unannounced testing
+                - grap box
+            - open source intelligence methodology
+                - subdomains
+                    - sublistr
+                    - urlcrazy
+                - google dorks
+                - shodan
+                - email address
+                    - the harvester
+                    - pipl
+                    - social media sites linkedin, facebook, twitter
+                    - emaiil headers
+                - DNS
+                    - whois
+                    - dnsrecon
+                    - dnsenum
+                    - dig
+                - information gathering
+                    - maltego
+                    - foca
+                    - fsociety
+                    - pentmenu
     - ## Tools
         - VULNERABILITY RESEARCH SITE
             - [CodeRed Center](www.eccouncil.or)
