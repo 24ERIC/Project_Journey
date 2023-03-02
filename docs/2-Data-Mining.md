@@ -18,12 +18,11 @@
 
 
 # Data Mining Process 
-- 
-- 
-- 
-- 
-- 
-- 
+- collect data
+- store and manage data
+- analysts it
+- software sorts data
+- presents data by graph / table
 
 
 
