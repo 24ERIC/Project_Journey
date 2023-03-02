@@ -1,13 +1,7 @@
 <!-- 
-# Commands
-```bash
-    git add . && git commit -m "update" && git push
-```
-# emojs
+git add . && git commit -m "update" && git push
 👨‍💻
 ✅ 
-# link
-- []()
 -->
 
 
