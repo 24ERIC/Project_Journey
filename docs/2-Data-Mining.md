@@ -33,3 +33,17 @@
 - spam Email filtering
 - discern the sentiment or opinion of users
 - 
+
+
+
+# Data Mining Techniques
+- Association rules: searches for relationships between variables
+- Classification: categorize, "shampoo", "conditioner", "soap", and "toothpaste"
+- Clustering: identified similarities between objects, then group them, "hair care" and "dental health"
+- 
+- 
+- 
+
+
+# References
+- https://www.investopedia.com/terms/d/datamining.asp
