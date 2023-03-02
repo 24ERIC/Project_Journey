@@ -13,7 +13,7 @@
 
 # Table of Knowledge 🥸
 
-- 🤖 ML + AI
+- 🤖 ML + AI 🤖
     - Basis
         - Database Basics
             - Relational 
@@ -191,8 +191,17 @@
             - Transfer Learning
             - Curriculum Learning
         - Tools
-            - 
-        - 
+            - Important Libraries
+                - Awesome Deep Learning
+                - Huggingface Transformers
+            - Tensorflow
+            - Pytorch
+            - Tensorboard
+            - MLFlow
+        - MOdel optimization (advanced) 
+            - Distillation 
+            - Quantization
+            - Neural Architecture Search (NAS)
     - Statistics
         - Basic Theorems
         - Probability - Intro
@@ -231,7 +240,7 @@
         - Reaction Diffusion
         - Morphogenesis
         - Reaction Diffusion
-- 😉 Hack You
+- 😉 Hack You 😉
     - Network
         - wired
         - wireless
