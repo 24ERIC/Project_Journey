@@ -13,8 +13,8 @@
 
 # Table of Knowledge 🥸
 
-- 🤖 ML + AI 🤖
-    - Basis
+- # 🤖 ML + AI 🤖
+    - ## Basis
         - Database Basics
             - Relational 
             - non-relational databases
@@ -29,16 +29,16 @@
              - XML
              - CSV
         - Regular Expressions (RegEx)
-    - Python Programming
+    - ## Python Programming
         - Numpy
         - Pandas
         - Virtual Environments
-    - Data Sources
+    - ## Data Sources
         - Data Mining
         - Web Scraping
         - Awesome Public Dataset
         - Kaggle
-    - Exploratory Data Analysis /Data Munging / - Wrangling
+    - ## Exploratory Data Analysis /Data Munging / - Wrangling
         - Principal component analysis
         - Dimensionality & Numerosity Reduction
         - Normalization
@@ -48,7 +48,7 @@
         - Feature Extraction
         - Denoising
         - Sampling
-    - Data Scientist
+    - ## Data Scientist
         - Statistics
             - Summary statistics
                 - covariance and correlation
@@ -86,7 +86,7 @@
             - BI
                 - Tabeau
                 - PowerBI
-    - Machine Learning
+    - ## Machine Learning
         - Concepts, inpus, attributes
             - categorical variables
             - ordinal variables
@@ -136,23 +136,23 @@
                 - Stacking
             - Reinforcement Learning
                 - Q-Learning
-        - Use Cases
+        - ## Use Cases
             - Sentiment Anslysis
             - Collaborative Filtering
             - Tagging
             - Prediction
-        - Tools
+        - ## Tools
             - Important libraries
                 - scikit-learn
                 - spacy (NLP)
-    - Deep Learning
+    - ## Deep Learning
         - Neural Networks
             - Understanding Neurl Networks
             - Loss Functions
             - Activation Functions
             - Weight Initialization
             - Vanishing / Exploding Gradient Problem
-        - Architecttures
+        - ## Architecttures
             - Feedforward neural network
             - Autoencoder
             - Convolutional Neural Network (CNN)
@@ -168,7 +168,7 @@
             - Generative Adversarial Network (GAN)
             - Evolving Architectures / NEAT
             - Residual Connections
-        - Training
+        - ## Training
             - Optimizers
                 - SGD
                 - Momentum
@@ -190,7 +190,7 @@
             - Multitask Learning
             - Transfer Learning
             - Curriculum Learning
-        - Tools
+        - ## Tools
             - Important Libraries
                 - Awesome Deep Learning
                 - Huggingface Transformers
@@ -198,70 +198,70 @@
             - Pytorch
             - Tensorboard
             - MLFlow
-        - MOdel optimization (advanced) 
+        - ## MOdel optimization (advanced) 
             - Distillation 
             - Quantization
             - Neural Architecture Search (NAS)
-    - Statistics
+    - # Statistics
         - Basic Theorems
         - Probability - Intro
-    - Machine Learning
+    - # Machine Learning
         - Linear Regression - Basics
         - Logistic Regression
         - Evaluation Metrics
         - Tensorflow - Intro 
         - Markov Models 
-    - Deep Learning
+    - # Deep Learning
         - Autoencoders
         - GANs - Intro
-        GANs - DCGAN
+        - GANs - DCGAN
         - GANs - ProGAN 
         - GANs - StyleGAN
         - Style Transfer 
         - CPPN
         - Sketch Cleanup 
-    - Computer Vision
+    - # Computer Vision
         - Image Processing - Basics 
         - Face Extract + Alignment
         - Face Swap (Dedicated Repository)
-    - NLP
+    - # NLP
         - RNN with Keras - Text Generation (Dedicated Repository)
         - Text Clustering
         - RNN Text Generation - Advanced (Dedicated Repository)
         - Words Embedding
-    - Miscellaneous
+    - # Miscellaneous
         - Data Manipulation and Visualization with Pandas and Seaborn — A Practical Introduction
         - Sorting
         - Data Viz
         - Advanced Python 
-    - Graphics
+    - # Graphics
         - Generative Art Intro
         - Cellular Automata
         - Reaction Diffusion
         - Morphogenesis
         - Reaction Diffusion
-- 😉 Hack You 😉
-    - Introduction to Ethical Hacking
-    - Footprinting and Reconnaissance
-    - Scanning Networks
-    - Enumeration
-    - Vulnerability Analysis
-    - System Hacking
-    - Malware Threats
-    - Sniffing
-    - Social Engineering
-    - Denial of Service
-    - Session Hijacking
-    - Evading IDS, Firewalls, and Honeypots
-    - Hacking Web Servers
-    - Hacking Web Applications
-    - SQL Injection
-    - Hacking Wireless Networks
-    - Hacking Mobile Platforms
-    - Hacking IoT and OT Hacking
-    - Cloud Computing
-    - Cryptography
-    - Tools
+- # 😉 Hack You 😉
+    - ## Introduction to Ethical Hacking
+    - ## Footprinting and Reconnaissance
+    - ## Scanning Networks
+    - ## Enumeration
+    - ## Vulnerability Analysis
+    - ## System Hacking
+    - ## Malware Threats
+    - ## Sniffing
+    - ## Social Engineering
+    - ## Denial of Service
+    - ## Session Hijacking
+    - ## Evading IDS, Firewalls, and Honeypots
+    - ## Hacking Web Servers
+    - ## Hacking Web Applications
+    - ## SQL Injection
+    - ## Hacking Wireless Networks
+    - ## Hacking Mobile Platforms
+    - ## Hacking IoT and OT Hacking
+    - ## Cloud Computing
+    - ## Cryptography
+    - ## Tools
         - VULNERABILITY RESEARCH SITE
             - [CodeRed Center](www.eccouncil.or)
             - [Exploit Database](www.exploit-db.co)
