@@ -40,9 +40,10 @@
 - Association rules: searches for relationships between variables
 - Classification: categorize, "shampoo", "conditioner", "soap", and "toothpaste"
 - Clustering: identified similarities between objects, then group them, "hair care" and "dental health"
-- 
-- 
-- 
+- Decision trees: classify or predict an outcome based on a set list of criteria or decisions
+- K-Nearest Neighbor (KNN) : predict features of a group based on individual data points
+- Neural networks:  process data through the use of nodes
+- Predictive analysis:  leverage historical information to build graphical or mathematical models to forecast future outcomes
 
 
 # References
