@@ -1,12 +1,12 @@
 # 1-Introduction to Ethical Hacking, Ethics, and Legality
 
-- ## Understand ethical hacking terminologyÛÛ
+- ## Understand ethical hacking terminology
     - 
     - 
 
 
 
-- ## Define the job role of an ethical hackerÛÛ
+- ## Define the job role of an ethical hacker
     - 
     - 
 
@@ -18,49 +18,49 @@
 
 
 
-- ## Identify different types of hacking technologiesÛÛ
+- ## Identify different types of hacking technologies
     - 
     - 
 
 
 
-- ## List the five stages of ethical hackingÛÛ
+- ## List the five stages of ethical hacking
     - 
     - 
 
 
 
-- ## What is hacktivism?ÛÛ
+- ## What is hacktivism?
     - 
     - 
 
 
 
-- ## List different types of hacker classesÛÛ
+- ## List different types of hacker classes
     - 
     - 
 
 
 
-- ## Define the skills required to become an ethical hackerÛÛ
+- ## Define the skills required to become an ethical hacker
     - 
     - 
 
 
 
-- ## What is vulnerability research?ÛÛ
+- ## What is vulnerability research?
     - 
     - 
 
 
 
-- ## Describe the ways of conducting ethical hackingÛÛ
+- ## Describe the ways of conducting ethical hacking
     - 
     - 
 
 
 
-- ## Understand the legal implications of hackingÛÛ
+- ## Understand the legal implications of hacking
     - 
     - 
 
