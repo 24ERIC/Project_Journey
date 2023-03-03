@@ -266,6 +266,8 @@ git add . && git commit -m "update" && git push
     - ## Hacking IoT and OT Hacking
     - ## Cloud Computing
     - ## Cryptography
+    - ## Tryhackme
+    - ## Hackthebox
     - ## Penetrarion testing
         - social engineering peneration testing
             - targets
