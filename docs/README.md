@@ -1,8 +1,6 @@
 <!-- 
 git add . && git commit -m "update" && git push
-👨‍💻
-✅ 
-https://github.com/24ERIC/Project_Journey/blob/master/docs/
+
 
 - [Prject Learn - all category](https://awesomeopensource.com/project/practical-tutorials/project-based-learning#python)
 - [AI Project - 500 - SourceCode](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)
