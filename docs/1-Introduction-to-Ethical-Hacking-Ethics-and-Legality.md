@@ -1,9 +1,28 @@
 # 1-Introduction to Ethical Hacking, Ethics, and Legality
 
 - ## Understand ethical hacking terminology
-    - 
+    - ConfidentialityÛN
+    - AuthenticityÛN
+    - IntegrityÛN
+    - Availability
     - 
 
+# Key
+- Vulnerabilities
+    - reconnaissance 
+    - scanning 
+        - stack-based buffer overflows
+        - denial of service
+        - session hijacking
+    - Maintaining Access
+        -  backdoors
+        - rootkits
+        -  Trojans
+        - zombie system
+    - Covering Tracks
+        - 
+    - 
+    - 
 
 
 - ## Define the job role of an ethical hacker
