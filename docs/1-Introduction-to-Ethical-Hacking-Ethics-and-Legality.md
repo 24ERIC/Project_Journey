@@ -37,8 +37,16 @@
     - Black Box 
     - White Box
     - Gray Box
-    - 
-    - 
+    - Vulnerability Research and Tools
+    - How to Be Ethical
+        - Talk to the client, and discuss the needs to be addressed during the testing.
+        - Prepare and sign NDA documents with the client.
+        - Organize an ethical hacking team, and prepare a schedule for testing.
+        - Conduct the test.
+        - Analyze the results of the testing, and prepare a report.
+        - Present the report findings to the client
+        - Defining Hacktivism
+        - 
     - 
     - 
 
