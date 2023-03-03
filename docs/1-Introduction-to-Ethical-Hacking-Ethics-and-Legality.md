@@ -20,8 +20,16 @@
         -  Trojans
         - zombie system
     - Covering Tracks
-        - 
-    - 
+        - log files
+        - intrusion detection system (IDS) alarms
+        - Steganography
+        - Using a tunneling protocol
+        - Altering log files
+    - Buffer overflows
+    -  SQL injection
+    - contain databases of information.
+    - Remote Network
+    - Remote Dial-Up Network 
     - 
 
 
