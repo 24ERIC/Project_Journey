@@ -10,7 +10,9 @@ git add . && git commit -m "update" && git push
 - [ML beginner Lesson](https://github.com/microsoft/ML-For-Beginners)
 - [Research Paper - ML](https://github.com/eugeneyan/applied-ml)
 -->
-
+# Current Working on:
+- 1
+- 2
 
 # Table of Knowledge 🥸
 
