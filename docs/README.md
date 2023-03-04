@@ -248,7 +248,7 @@ git add . && git commit -m "update" && git push
         - Reaction Diffusion
 - # 😉 Hack You 😉
     - ## Introduction to Ethical Hacking
-        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](./1/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
+        - [1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md](./1/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
     - ## Footprinting and Reconnaissance
     - ## Scanning Networks
     - ## Enumeration
