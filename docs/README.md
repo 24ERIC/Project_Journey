@@ -13,6 +13,7 @@ git add . && git commit -m "update" && git push
 # Current Working on:
 - 1
 - 2
+- [3](./3/3.md)
 
 # Table of Knowledge 🥸
 
