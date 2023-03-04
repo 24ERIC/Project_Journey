@@ -38,7 +38,7 @@ git add . && git commit -m "update" && git push
         - Virtual Environments
     - ## Data Sources
         - Data Mining
-            - [👨‍💻2-Data-Mining.md](./2-Data-Mining.md)
+            - [2-Data-Mining.md](./2-Data-Mining.md)
         - Web Scraping
         - Awesome Public Dataset
         - Kaggle
