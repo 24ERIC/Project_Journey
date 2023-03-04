@@ -50,9 +50,24 @@
     - 5. What tools can you use to scrape the web?
         - BeautifulSoup
             - another Python library, commonly used to parse data from XML and HTML documents.
-    - 
-    - 
-    - 
+        - Scrapy
+            - Python-based application framework that crawls and extracts structured data from the web
+            - data mining, information processing, and for archiving historical content
+            - web scraping
+            - general-purpose web crawler, or to extract data through APIs
+        - Pandas
+            - multi-purpose Python library used for data manipulation and indexing. 
+            - can be used to scrape the web in conjunction with BeautifulSoup.
+        - Parsehub
+- key
+    - Have you refined your target data?
+    - Have you checked the site’s robots.txt?
+    - Have you checked the site’s terms of service?
+        - website’s terms of service (TOS)
+        - formal clause outlining what you can and can’t do with the data on their site. 
+    - Are you following data protection protocols?
+    - Are you at risk of crashing a website?
+- 
 - 
 - 
 - 
