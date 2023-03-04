@@ -15,7 +15,7 @@ git add . && git commit -m "update" && git push
 - 
 - 
 
-# Table of Knowledge 🥸
+# Table of 🥸 Knowledge 
 
 - # 🤖 ML + AI 🤖
     - ## Basis
