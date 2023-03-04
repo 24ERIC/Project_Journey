@@ -39,8 +39,9 @@ git add . && git commit -m "update" && git push
         - Virtual Environments
     - ## Data Sources
         - Data Mining
-            - [2-Data-Mining.md](./2-Data-Mining.md)
+            - [2-Data-Mining.md](./2/2-Data-Mining.md)
         - Web Scraping
+            - [3-Web-Scraping.md](./3/3-Web-Scraping.md)
         - Awesome Public Dataset
         - Kaggle
     - ## Exploratory Data Analysis /Data Munging / - Wrangling
@@ -247,7 +248,7 @@ git add . && git commit -m "update" && git push
         - Reaction Diffusion
 - # 😉 Hack You 😉
     - ## Introduction to Ethical Hacking
-        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
+        - [👨‍💻 1-Introduction to Ethical Hacking, Ethics, and Legality.md](./1/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
     - ## Footprinting and Reconnaissance
     - ## Scanning Networks
     - ## Enumeration
