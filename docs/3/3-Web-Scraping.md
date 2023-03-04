@@ -67,7 +67,13 @@
         - formal clause outlining what you can and can’t do with the data on their site. 
     - Are you following data protection protocols?
     - Are you at risk of crashing a website?
-- 
+- example1
+    ```bash
+        pip install beautifulsoup4
+    ```
+    ```python
+        from bs4 import BeautifulSoup
+    ```
 - 
 - 
 - 
