@@ -99,6 +99,7 @@ hacking
     - ## Machine Learning
         - Concepts, inpus, attributes
             - categorical variables
+                - [6-categorical-variables.md](./6/6-categorical-variables.md)
             - ordinal variables
             - nnumerical variables
         - General
