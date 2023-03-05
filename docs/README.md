@@ -250,28 +250,30 @@ hacking
         - Morphogenesis
         - Reaction Diffusion
 - # 😉 Hack You 😉
-    - ## Introduction to Ethical Hacking
-        - [1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md](./1/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
-    - ## Footprinting and Reconnaissance
-    - ## Scanning Networks
-    - ## Enumeration
-    - ## Vulnerability Analysis
-    - ## System Hacking
-    - ## Malware Threats
-    - ## Sniffing
-    - ## Social Engineering
-    - ## Denial of Service
-    - ## Session Hijacking
-    - ## Evading IDS, Firewalls, and Honeypots
-    - ## Hacking Web Servers
-    - ## Hacking Web Applications
-    - ## SQL Injection
-    - ## Hacking Wireless Networks
-    - ## Hacking Mobile Platforms
-    - ## Hacking IoT and OT Hacking
-    - ## Cloud Computing
-    - ## Cryptography
+    - [cehv11.pdf](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/68decb50-3161-46a2-9f1b-dbeca4e1e83f/cehv11.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230305T125631Z&X-Amz-Expires=86400&X-Amz-Signature=bf6200718bf27f08dd1fc7579f5fbd56040fd1704e0491bb41e7f82b443ad832&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22cehv11.pdf%22&x-id=GetObject)
+        - ## Introduction to Ethical Hacking
+            - [1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md](./1/1-Introduction-to-Ethical-Hacking-Ethics-and-Legality.md)
+        - ## Footprinting and Reconnaissance
+        - ## Scanning Networks
+        - ## Enumeration
+        - ## Vulnerability Analysis
+        - ## System Hacking
+        - ## Malware Threats
+        - ## Sniffing
+        - ## Social Engineering
+        - ## Denial of Service
+        - ## Session Hijacking
+        - ## Evading IDS, Firewalls, and Honeypots
+        - ## Hacking Web Servers
+        - ## Hacking Web Applications
+        - ## SQL Injection
+        - ## Hacking Wireless Networks
+        - ## Hacking Mobile Platforms
+        - ## Hacking IoT and OT Hacking
+        - ## Cloud Computing
+        - ## Cryptography
     - ## Tryhackme
+        - 
     - ## Hackthebox
     - ## Penetrarion testing 1
         - social engineering peneration testing
@@ -345,7 +347,6 @@ hacking
                     - fsociety
                     - pentmenu
     - ## [Lots of key topic in Penetrarion testing](https://book.hacktricks.xyz/pentesting-web/2fa-bypass)
-
     - ## [All keys in Penetrarion testing](https://github.com/alexbieber/Bug_Bounty_writeups)
         - Cross Site Scripting (XSS)
             -     From P5 to P2 to 100 BXSS
