@@ -96,6 +96,10 @@
     - example12.py
     - example13.py
     - example14.py
+    - example15.py
+    - example16.py
+    - example17.py
+    - example18.py
 - 
 - 
 - 
