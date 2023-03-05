@@ -15,4 +15,4 @@
 | 11 | ✅ | [Air-We-Ok](https://github.com/24ERIC/Air-We-Ok) | tackle environmental challenges and reduce carbon dioxide emissions by motivating user to challenge daily and monthly grean life tasks with gaming style website | Feb.17-19 2023 | 4 |
 | 12 | ✅ | [React-Master](https://github.com/24ERIC/React-Master) | Practise how to quickly create a website, (10 mins a website) | Feb.22-27 2023 | 1 |
 | 13 | ✅ | [“CatCaptions”](https://github.com/24ERIC/CatCaptions) | The project is an incredibly powerful AI backend that generates context right from the picture and NLP model to use the context to generate captions. | Feb.24 2023 | 4 |
-| 14 | 👨‍💻 | [Tutorial-Projects](https://github.com/24ERIC/Tutorial-Projects) | Try and test different languages, techniques, concept and advance technology by following open source tutorials. | Feb.27-??? 2023 | 1 |
+| 14 | ✅ | [SpeakChess](https://github.com/24ERIC/SpeakChess) | The project implemesnts text-to-speech and speech-to-text to help players who experiencing disabilities to play chess normally. | Mar.4-5 2023 | 4 |
