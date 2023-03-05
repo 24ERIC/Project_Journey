@@ -9,6 +9,10 @@ git add -A && git commit -m "update" && git push
 - [Use ML - ML software develop, deploy and maintai](https://github.com/GokuMohandas/mlops-course)
 - [ML beginner Lesson](https://github.com/microsoft/ML-For-Beginners)
 - [Research Paper - ML](https://github.com/eugeneyan/applied-ml)
+
+
+hacking
+
 -->
 # Current Working on:
 - 1
@@ -41,7 +45,7 @@ git add -A && git commit -m "update" && git push
         - Web Scraping
             - [3-Web-Scraping.md](./3/3-Web-Scraping.md)
         - Awesome Public Dataset
-            - [4-Awesome-Public-Dataset.md](./4/4-Awesome-Public-Dataset.md)
+            - [4-Awesome-Public-Dataset.rst](./4/4-Awesome-Public-Dataset.rst)
         - Kaggle
     - ## Exploratory Data Analysis /Data Munging / - Wrangling
         - Principal component analysis
@@ -269,7 +273,7 @@ git add -A && git commit -m "update" && git push
     - ## Cryptography
     - ## Tryhackme
     - ## Hackthebox
-    - ## Penetrarion testing
+    - ## Penetrarion testing 1
         - social engineering peneration testing
             - targets
                 - user / clients
@@ -340,6 +344,12 @@ git add -A && git commit -m "update" && git push
                     - foca
                     - fsociety
                     - pentmenu
+    - ## [Lots of key topic in Penetrarion testing](https://book.hacktricks.xyz/pentesting-web/2fa-bypass)
+
+    - ## [All keys in Penetrarion testing](https://github.com/alexbieber/Bug_Bounty_writeups)
+
+    - ## Penetrarion testing resource 4
+        - [OSINT Tools for the Dark Web](https://github.com/paulveillard/cybersecurity-dark-web/tree/main/dark-web-osint-tools)
     - ## Tools
         - VULNERABILITY RESEARCH SITE
             - [CodeRed Center](www.eccouncil.or)
