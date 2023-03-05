@@ -49,6 +49,7 @@ hacking
         - Kaggle
     - ## Exploratory Data Analysis /Data Munging / - Wrangling
         - Principal component analysis
+            - [5-Principal-component-analysis.md](./5/5-Principal-component-analysis.md)
         - Dimensionality & Numerosity Reduction
         - Normalization
         - Data Scrubbing, Handling Missing Values
