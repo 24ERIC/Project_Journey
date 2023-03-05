@@ -15,6 +15,20 @@
 - Hybrid of Hashing and Vocabulary
     - You can take a hybrid approach and combine hashing with a vocabulary. Use a vocabulary for the most important categories in your data, but replace the OOV bucket with multiple OOV buckets, and use hashing to assign categories to buckets.
     - The categories in the hash buckets must share an index, and the model likely won't make good predictions, but we have allocated some amount of memory to attempt to learn the categories outside of our vocabulary.
+- Figure 6: Sparse feature vectors via embedding
+- The other transformations we've discussed could be stored on disk, but embeddings are different. Since embeddings are trained, they're not a typical data transformation—they are part of the model. They're trained with other model weights, and functionally are equivalent to a layer of weights.
+- What about pretrained embeddings? Pretrained embeddings are still typically modifiable during training, so they're still conceptually part of the model.
+
+
+
+
+- At first blush, categorical variables aren’t that different from numerical ones. But once you start digging deeper and implement your machine learning (and preprocessing) ideas in code, you will stop every minute asking questions such as “Do I do feature engineering on both train and test sets?” or “I heard something about cardinality — what is that and should I Google more about it?”
+- Let’s see if we can clear some of this up with an action plan for how you deal with data sets that have a lot of categorical variables and train a couple of models.
+- Kaggle will serve as our data source: it has an excellent housing prices data set. Be ready to spend some time going through the provided data dictionary. You can keep it open in a separate browser window. We will also load it into the Jupyter notebook. In this exercise, we will predict values in the column SalePrice, based on various parameters of houses.
+- 
+- 
+- 
+- 
 - 
 - 
 - 
