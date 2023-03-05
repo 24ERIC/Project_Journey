@@ -12,8 +12,6 @@ git add . && git commit -m "update" && git push
 -->
 # Current Working on:
 - 1
-- 
-- 
 
 # Table of 🥸 Knowledge 
 
