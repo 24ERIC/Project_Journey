@@ -14,8 +14,6 @@ git add -A && git commit -m "update" && git push
 hacking
 
 -->
-# Current Working on:
-- 1
 
 # Table of 🥸 Knowledge 
 
