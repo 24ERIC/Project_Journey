@@ -1,22 +1,21 @@
-f = open("./in.txt", "r")
-for line in f:
-    if line != "" and line != "\n":
-        print(line)
-# f = open("./in.txt", "r")
-# for line in f:
-#     if line.replace("\n", "") != "":
-#         line = line.replace("\n", "").replace("* ", "- ").replace("TryHackMe | ", "")
-#         if line[0:3] == "---":
-#             continue
-#         elif line[0] == "-":
-#             print(line.replace("\n", "").replace("- ", "            - "))
-#         elif line[0] == "#":
-#             print(line.replace("\n", "").replace("## ", "        - "))
-        
-#         line = line.replace("            - [", "").replace(")", "")
-#         if line.startswith("        - "):
-#             continue
-#         if "]" in line:
-#             i = line.index("]")
-#             line = line[i+2:]
-#         print(line)
+f1 = open("./compare.txt", "r")
+f2 = open("./in.txt", "r")
+
+for line1 in f1:
+    line1 = line1.replace("\n", "")
+    for line2  in f2:
+        line2 = line2.replace("\n", "")
+        if (line1 == line2):
+            break
+    if line1 != line2:
+        print(line1)
+
+
+
+
+# f1 = open("./compare.txt", "r")
+# for line in f1:
+#     if line[1:3] == "h2":
+#         continue
+#     line = line.replace("<br/>", "").replace("\n", "")
+#     print(line)
