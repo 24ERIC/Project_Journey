@@ -694,11 +694,25 @@ The model would see that anyone who has a value of False for took_antibiotic_med
 But the model will be very inaccurate when subsequently deployed in the real world, because even patients who will get pneumonia won't have received antibiotics yet when we need to make predictions about their future health.
 
 To prevent this type of data leakage, any variable updated (or created) after the target value is realized should be excluded.
+- Train-Test Contamination
+
+A different type of leak occurs when you aren't careful to distinguish training data from validation data.
+
+Recall that validation is meant to be a measure of how the model does on data that it hasn't considered before. You can corrupt this process in subtle ways if the validation data affects the preprocessing behavior. This is sometimes called train-test contamination.
+
+For example, imagine you run preprocessing (like fitting an imputer for missing values) before calling train_test_split(). The end result? Your model may get good validation scores, giving you great confidence in it, but perform poorly when you deploy it to make decisions.
+- After all, you incorporated data from the validation or test data into how you make predictions, so the may do well on that particular data even if it can't generalize to new data. This problem becomes even more subtle (and more dangerous) when you do more complex feature engineering.
+
+If your validation is based on a simple train-test split, exclude the validation data from any type of fitting, including the fitting of preprocessing steps. This is easier if you use scikit-learn pipelines. When using cross-validation, it's even more critical that you do your preprocessing inside the pipeline!
+
 - 
 - 
 - 
-- 
-- 
+Example
+
+In this example, you will learn one way to detect and remove target leakage.
+
+We will use a dataset about credit card applications and skip the basic data set-up code. The end result is that information about each credit card application is stored in a DataFrame X. We'll use it to predict which applications were accepted in a Series y.
 - 
 - 
 - 
