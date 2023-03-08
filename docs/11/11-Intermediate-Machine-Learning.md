@@ -300,12 +300,45 @@ One-hot encoding generally does not perform well if the categorical variable tak
 
 We won't focus on the data loading step. Instead, you can imagine you are at a point where you already have the training and validation data in X_train, X_valid, y_train, and y_valid.
 - 
+
+Next, we obtain a list of all of the categorical variables in the training data.
+
+We do this by checking the data type (or dtype) of each column. The object dtype indicates a column has text (there are other things it could theoretically be, but that's unimportant for our purposes). For this dataset, the columns with text indicate categorical variables.
+
 - 
+Define Function to Measure Quality of Each Approach
+
+We define a function score_dataset() to compare the three different approaches to dealing with categorical variables. This function reports the mean absolute error (MAE) from a random forest model. In general, we want the MAE to be as low as possible!
+
 - 
+
+drop_X_train = X_train.select_dtypes(exclude=['object'])
+drop_X_valid = X_valid.select_dtypes(exclude=['object'])
+
+print("MAE from Approach 1 (Drop categorical variables):")
+print(score_dataset(drop_X_train, drop_X_valid, y_train, y_valid))
+
+
 - 
+Score from Approach 2 (Ordinal Encoding)
+
+Scikit-learn has a OrdinalEncoder class that can be used to get ordinal encodings. We loop over the categorical variables and apply the ordinal encoder separately to each column.
+
+- from sklearn.preprocessing import OrdinalEncoder
+
+# Make copy to avoid changing original data 
+label_X_train = X_train.copy()
+label_X_valid = X_valid.copy()
+
+# Apply ordinal encoder to each column with categorical data
+ordinal_encoder = OrdinalEncoder()
+label_X_train[object_cols] = ordinal_encoder.fit_transform(X_train[object_cols])
+label_X_valid[object_cols] = ordinal_encoder.transform(X_valid[object_cols])
+
+print("MAE from Approach 2 (Ordinal Encoding):") 
+print(score_dataset(label_X_train, label_X_valid, y_train, y_valid))
 - 
-- 
-- 
+- In the code cell above, for each column, we randomly assign each unique value to a different integer. This is a common approach that is simpler than providing custom labels; however, we can expect an additional boost in performance if we provide better-informed labels for all ordinal variables.
 - 
 - 
 - 
