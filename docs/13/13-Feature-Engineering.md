@@ -56,3 +56,20 @@ X["Cluster"] = kmeans.fit_predict(X_scaled)
 
 
 
+
+
+kmeans = KMeans(n_clusters=10, n_init=10, random_state=0)
+
+# YOUR CODE HERE: Create the cluster-distance features using `fit_transform`
+X_cd = kmeans.fit_transform(X_scaled)
+
+# Label features and join to dataset
+X_cd = pd.DataFrame(X_cd, columns=[f"Centroid_{i}" for i in range(X_cd.shape[1])])
+X = X.join(X_cd)
+
+
+
+
+
+
+
