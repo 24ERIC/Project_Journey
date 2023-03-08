@@ -257,6 +257,7 @@ hacking
             - [11-Intermediate-Machine-Learning.md](./11/11-Intermediate-Machine-Learning.md)
             - [12-Data-Visualization.md](./12/12-Data-Visualization.md)
             - [13-Feature-Engineering.md](./13/13-Feature-Engineering.md)
+            - [14-Intro-to-SQL.md](./14/14-Intro-to-SQL.md)
 - # BlockChain
     - example
         - [7-block-chain.md](./7/7-block-chain.md)
