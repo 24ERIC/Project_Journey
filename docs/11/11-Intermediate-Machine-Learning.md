@@ -413,9 +413,31 @@ OH_X_train = pd.concat([num_X_train, OH_cols_train], axis=1)
 OH_X_valid = pd.concat([num_X_valid, OH_cols_valid], axis=1)
 - 
 - 
+Introduction
+
+Pipelines are a simple way to keep your data preprocessing and modeling code organized. Specifically, a pipeline bundles preprocessing and modeling steps so you can use the whole bundle as if it were a single step.
+
+Many data scientists hack together models without pipelines, but pipelines have some important benefits. Those include:
+
+    Cleaner Code: Accounting for data at each step of preprocessing can get messy. With a pipeline, you won't need to manually keep track of your training and validation data at each step.
+    Fewer Bugs: There are fewer opportunities to misapply a step or forget a preprocessing step.
+    Easier to Productionize: It can be surprisingly hard to transition a model from a prototype to something deployable at scale. We won't go into the many related concerns here, but pipelines can help.
+    More Options for Model Validation: You will see an example in the next tutorial, which covers cross-validation.
+Example
+
+As in the previous tutorial, we will work with the Melbourne Housing dataset.
+
+We won't focus on the data loading step. Instead, you can imagine you are at a point where you already have the training and validation data in X_train, X_valid, y_train, and y_valid.
+- We take a peek at the training data with the head() method below. Notice that the data contains both categorical data and columns with missing values. With a pipeline, it's easy to deal with both!
 - 
 - 
-- 
+Step 1: Define Preprocessing Steps
+
+Similar to how a pipeline bundles together preprocessing and modeling steps, we use the ColumnTransformer class to bundle together different preprocessing steps. The code below:
+
+    imputes missing values in numerical data, and
+    imputes missing values and applies a one-hot encoding to categorical data.
+
 - 
 - 
 - 
