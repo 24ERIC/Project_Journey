@@ -164,14 +164,40 @@ Imputation fills in the missing values with some number. For instance, we can fi
 
 Imputation fills in the missing values with some number. For instance, we can fill in the mean value along each column.
 - Imputation is the standard approach, and it usually works well. However, imputed values may be systematically above or below their actual values (which weren't collected in the dataset). Or rows with missing values may be unique in some other way. In that case, your model would make better predictions by considering which values were originally missing.
+- Example
+
+In the example, we will work with the Melbourne Housing dataset. Our model will use information such as the number of rooms and land size to predict home price.
+
+We won't focus on the data loading step. Instead, you can imagine you are at a point where you already have the training and validation data in X_train, X_valid, y_train, and y_valid.
 - 
+Define Function to Measure Quality of Each Approach
+
+We define a function score_dataset() to compare different approaches to dealing with missing values. This function reports the mean absolute error (MAE) from a random forest model.
+
 - 
+Score from Approach 1 (Drop Columns with Missing Values)
+
+Since we are working with both training and validation sets, we are careful to drop the same columns in both DataFrames.
+
 - 
+cols_with_missing = [col for col in X_train.columns
+                     if X_train[col].isnull().any()]
 - 
+# Drop columns in training and validation data
+reduced_X_train = X_train.drop(cols_with_missing, axis=1)
+reduced_X_valid = X_valid.drop(cols_with_missing, axis=1)
+
 - 
+print("MAE from Approach 1 (Drop columns with missing values):")
+print(score_dataset(reduced_X_train, reduced_X_valid, y_train, y_valid))
 - 
-- 
-- 
+Score from Approach 2 (Imputation)
+
+Next, we use SimpleImputer to replace missing values with the mean value along each column.
+
+Although it's simple, filling in the mean value generally performs quite well (but this varies by dataset). While statisticians have experimented with more complex ways to determine imputed values (such as regression imputation, for instance), the complex strategies typically give no additional benefit once you plug the results into sophisticated machine learning models.
+
+- from sklearn.impute import SimpleImputer
 - 
 - 
 - 
