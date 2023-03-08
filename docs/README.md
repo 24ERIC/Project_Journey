@@ -255,7 +255,8 @@ hacking
             - [9-kaggle-Python.md](./9/9-kaggle-Python.md)
             - [10-kaggle-pandas.md](./10/10-kaggle-pandas.md)
             - [11-Intermediate-Machine-Learning.md](./11/11-Intermediate-Machine-Learning.md)
-            - [12-Feature-Engineering.md]()
+            - [12-Data-Visualization.md](./12/12-Data-Visualization.md)
+            - [13-Feature-Engineering.md](./13/13-Feature-Engineering.md)
 - # BlockChain
     - example
         - [7-block-chain.md](./7/7-block-chain.md)
