@@ -216,4 +216,55 @@ print(score_dataset(imputed_X_train, imputed_X_valid, y_train, y_valid))
 We see that Approach 2 has lower MAE than Approach 1, so Approach 2 performed better on this dataset.
 Score from Approach 3 (An Extension to Imputation)
 
-Next, we impute the missing values, while also keeping track of which values were imputed.
+Next, we impute the missing values, while also keeping tr
+
+# Make copy to avoid changing original data (when imputing)
+X_train_plus = X_train.copy()
+X_valid_plus = X_valid.copy()
+ack of which values were imputed.
+- uted
+for col in cols_with_missing:
+    X_train_plus[col + '_was_missing'] = X_train_plus[col].isnull()
+    X_valid_plus[col + '_was_missing'] = X_valid_plus[col].isnull()
+
+- 
+# Imputation
+my_imputer = SimpleImputer()
+imputed_X_train_plus = pd.DataFrame(my_imputer.fit_transform(X_train_plus))
+imputed_X_valid_plus = pd.DataFrame(my_imputer.transform(X_valid_plus))
+
+# Imputation removed column names; put them back
+imputed_X_train_plus.columns = X_train_plus.columns
+imputed_X_valid_plus.columns = X_valid_plus.columns
+
+print("MAE from Approach 3 (An Extension to Imputation):")
+print(score_dataset(imputed_X_train_plus, imputed_X_valid_plus, y_train, y_valid))
+- 
+
+MAE from Approach 3 (An Extension to Imputation):
+178927.503183954
+
+As we can see, Approach 3 performed slightly worse than Approach 2.
+So, why did imputation perform better than dropping the columns?
+
+The training data has 10864 rows and 12 columns, where three columns contain missing data. For each column, less than half of the entries are missing. Thus, dropping the columns removes a lot of useful information, and so it makes sense that imputation would perform better.
+
+- # Shape of training data (num_rows, num_columns)
+print(X_train.shape)
+
+# Number of missing values in each column of training data
+missing_val_count_by_column = (X_train.isnull().sum())
+print(missing_val_count_by_column[missing_val_count_by_column > 0])
+
+(10864, 12)
+Car               49
+BuildingArea    5156
+YearBuilt       4307
+dtype: int64
+
+
+- 
+- 
+- 
+- 
+- 
