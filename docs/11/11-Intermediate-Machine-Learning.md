@@ -637,7 +637,19 @@ my_model.fit(X_train, y_train,
              eval_set=[(X_valid, y_valid)], 
              verbose=False)
 - 
-- 
+n_jobs
+
+On larger datasets where runtime is a consideration, you can use parallelism to build your models faster. It's common to set the parameter n_jobs equal to the number of cores on your machine. On smaller datasets, this won't help.
+
+The resulting model won't be any better, so micro-optimizing for fitting time is typically nothing but a distraction. But, it's useful in large datasets where you would otherwise spend a long time waiting during the fit command.
+
+Here's the modified example:
+
+- my_model = XGBRegressor(n_estimators=1000, learning_rate=0.05, n_jobs=4)
+my_model.fit(X_train, y_train, 
+             early_stopping_rounds=5, 
+             eval_set=[(X_valid, y_valid)], 
+             verbose=False)
 - 
 - 
 - 
