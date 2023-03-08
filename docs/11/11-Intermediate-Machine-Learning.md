@@ -789,6 +789,8 @@ print("Cross-val accuracy: %f" % cv_scores.mean())
 
 
 - 
+
+This accuracy is quite a bit lower, which might be disappointing. However, we can expect it to be right about 80% of the time when used on new applications, whereas the leaky model would likely do much worse than that (in spite of its higher apparent score in cross-validation).
 - 
 - 
 - 
