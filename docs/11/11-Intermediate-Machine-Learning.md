@@ -512,7 +512,11 @@ preprocessor = ColumnTransformer(
 # Define model
 model = RandomForestRegressor(n_estimators=100, random_state=0)
 - 
-- 
+- Machine learning is an iterative process.
+
+You will face choices about what predictive variables to use, what types of models to use, what arguments to supply to those models, etc. So far, you have made these choices in a data-driven way by measuring model quality with a validation (or holdout) set.
+But there are some drawbacks to this approach. To see this, imagine you have a dataset with 5000 rows. You will typically keep about 20% of the data as a validation dataset, or 1000 rows. But this leaves some random chance in determining model scores. That is, a model might do well on one set of 1000 rows, even if it would be inaccurate on a different 1000 rows.
+
 - 
 - 
 - 
