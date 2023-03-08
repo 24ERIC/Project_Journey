@@ -682,8 +682,18 @@ In other words, leakage causes a model to look accurate until you start making d
 
 There are two main types of leakage: target leakage and train-test 
 - 
+- Target leakage occurs when your predictors include data that will not be available at the time you make predictions. It is important to think about target leakage in terms of the timing or chronological order that data becomes available, not merely whether a feature helps make good predictions.
+
+An example will be helpful. Imagine you want to predict who will get sick with pneumonia. The top few rows of your raw data look like this:
 - 
-- 
+
+People take antibiotic medicines after getting pneumonia in order to recover. The raw data shows a strong relationship between those columns, but took_antibiotic_medicine is frequently changed after the value for got_pneumonia is determined. This is target leakage.
+
+The model would see that anyone who has a value of False for took_antibiotic_medicine didn't have pneumonia. Since validation data comes from the same source as training data, the pattern will repeat itself in validation, and the model will have great validation (or cross-validation) scores.
+
+But the model will be very inaccurate when subsequently deployed in the real world, because even patients who will get pneumonia won't have received antibiotics yet when we need to make predictions about their future health.
+
+To prevent this type of data leakage, any variable updated (or created) after the target value is realized should be excluded.
 - 
 - 
 - 
