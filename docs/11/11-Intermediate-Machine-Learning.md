@@ -374,11 +374,43 @@ Which approach is best?
 In this case, dropping the categorical columns (Approach 1) performed worst, since it had the highest MAE score. As for the other two approaches, since the returned MAE scores are so close in value, there doesn't appear to be any meaningful benefit to one over the other.
 
 In general, one-hot encoding (Approach 3) will typically perform best, and dropping the categorical columns (Approach 1) typically performs worst, but it varies on a case-by-case basis.
+- drop_X_train
+- label_X_train = X_train.drop(bad_label_cols, axis=1)
+label_X_valid = X_valid.drop(bad_label_cols, axis=1)
+
+# Apply ordinal encoder
+ordinal_encoder = OrdinalEncoder()
+label_X_train[good_label_cols] = ordinal_encoder.fit_transform(X_train[good_label_cols])
+label_X_valid[good_label_cols] = ordinal_encoder.transform(X_valid[good_label_cols])
 - 
-- 
-- 
-- 
-- 
+- Solution:
+
+# How many categorical variables in the training data
+# have cardinality greater than 10?
+high_cardinality_numcols = 3
+
+# How many columns are needed to one-hot encode the
+# 'Neighborhood' variable in the training data?
+num_cols_neighborhood = 25
+
+
+
+- # Apply one-hot encoder to each column with categorical data
+OH_encoder = OneHotEncoder(handle_unknown='ignore', sparse=False)
+OH_cols_train = pd.DataFrame(OH_encoder.fit_transform(X_train[low_cardinality_cols]))
+OH_cols_valid = pd.DataFrame(OH_encoder.transform(X_valid[low_cardinality_cols]))
+
+# One-hot encoding removed index; put it back
+OH_cols_train.index = X_train.index
+OH_cols_valid.index = X_valid.index
+
+# Remove categorical columns (will replace with one-hot encoding)
+num_X_train = X_train.drop(object_cols, axis=1)
+num_X_valid = X_valid.drop(object_cols, axis=1)
+
+# Add one-hot encoded columns to numerical features
+OH_X_train = pd.concat([num_X_train, OH_cols_train], axis=1)
+OH_X_valid = pd.concat([num_X_valid, OH_cols_valid], axis=1)
 - 
 - 
 - 
