@@ -583,10 +583,44 @@ We typically want a single measure of model quality to compare alternative model
 
 
 - 
+- XGBoost
+The most accurate modeling technique for structured data.
 - 
+
+We also make predictions and evaluate the model.
+
+from sklearn.metrics import mean_absolute_error
+
+predictions = my_model.predict(X_valid)
+print("Mean Absolute Error: " + str(mean_absolute_error(predictions, y_valid)))
+
+
 - 
+Parameter Tuning
+
+XGBoost has a few parameters that can dramatically affect accuracy and training speed. The first parameters you should understand are:
+n_estimators
+
+n_estimators specifies how many times to go through the modeling cycle described above. It is equal to the number of models that we include in the ensemble.
+
+    Too low a value causes underfitting, which leads to inaccurate predictions on both training data and test data.
+    Too high a value causes overfitting, which causes accurate predictions on training data, but inaccurate predictions on test data (which is what we care about).
+
+Typical values range from 100-1000, though this depends a lot on the learning_rate parameter discussed below.
+
+Here is the code to set the number of models in the ensemble:
+
 - 
-- 
+early_stopping_rounds
+
+early_stopping_rounds offers a way to automatically find the ideal value for n_estimators. Early stopping causes the model to stop iterating when the validation score stops improving, even if we aren't at the hard stop for n_estimators. It's smart to set a high value for n_estimators and then use early_stopping_rounds to find the optimal time to stop iterating.
+
+Since random chance sometimes causes a single round where validation scores don't improve, you need to specify a number for how many rounds of straight deterioration to allow before stopping. Setting early_stopping_rounds=5 is a reasonable choice. In this case, we stop after 5 straight rounds of deteriorating validation scores.
+
+When using early_stopping_rounds, you also need to set aside some data for calculating the validation scores - this is done by setting the eval_set parameter.
+
+We can modify the example above to include early stopping:
+
 - 
 - 
 - 
