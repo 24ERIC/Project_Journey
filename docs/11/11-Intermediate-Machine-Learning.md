@@ -621,9 +621,21 @@ When using early_stopping_rounds, you also need to set aside some data for calcu
 
 We can modify the example above to include early stopping:
 
+- learning_rate
+
+Instead of getting predictions by simply adding up the predictions from each component model, we can multiply the predictions from each model by a small number (known as the learning rate) before adding them in.
+
+This means each tree we add to the ensemble helps us less. So, we can set a higher value for n_estimators without overfitting. If we use early stopping, the appropriate number of trees will be determined automatically.
+
+In general, a small learning rate and large number of estimators will yield more accurate XGBoost models, though it will also take the model longer to train since it does more iterations through the cycle. As default, XGBoost sets learning_rate=0.1.
+
+Modifying the example above to change the learning rate yields the following code:
 - 
-- 
-- 
+- my_model = XGBRegressor(n_estimators=1000, learning_rate=0.05)
+my_model.fit(X_train, y_train, 
+             early_stopping_rounds=5, 
+             eval_set=[(X_valid, y_valid)], 
+             verbose=False)
 - 
 - 
 - 
