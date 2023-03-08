@@ -252,6 +252,7 @@ hacking
     - # Kaggle
         - courses
             - [8-Intro-to-Programming.md](./8/8-Intro-to-Programming.md)
+            - [9-kaggle-Python.md](./9/9-kaggle-Python.md)
 - # BlockChain
     - example
         - [7-block-chain.md](./7/7-block-chain.md)
