@@ -142,6 +142,34 @@ best_model = model_3
 # Check your answer
 step_1.check()
 - 
+
+In this tutorial, you will learn three approaches to dealing with missing values. Then you'll compare the effectiveness of these approaches on a real-world dataset.
+Introduction
+
+There are many ways data can end up with missing values. For example,
+
+    A 2 bedroom house won't include a value for the size of a third bedroom.
+    A survey respondent may choose not to share his income.
+
+Most machine learning libraries (including scikit-learn) give an error if you try to build a model using data with missing values. So you'll need to choose one of the strategies below.
+
+- 
+- 1) A Simple Option: Drop Columns with Missing Values
+
+The simplest option is to drop columns with missing values.
+- 2) A Better Option: Imputation
+
+Imputation fills in the missing values with some number. For instance, we can fill in the mean value along each column.
+- 2) A Better Option: Imputation
+
+Imputation fills in the missing values with some number. For instance, we can fill in the mean value along each column.
+- Imputation is the standard approach, and it usually works well. However, imputed values may be systematically above or below their actual values (which weren't collected in the dataset). Or rows with missing values may be unique in some other way. In that case, your model would make better predictions by considering which values were originally missing.
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 
