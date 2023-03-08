@@ -542,7 +542,23 @@ So, given these tradeoffs, when should you use each approach?
     For larger datasets, a single validation set is sufficient. Your code will run faster, and you may have enough data that there's little need to re-use some of it for holdout.
 
 - 
+
+Then, we define a pipeline that uses an imputer to fill in missing values and a random forest model to make predictions.
+
+While it's possible to do cross-validation without pipelines, it is quite difficult! Using a pipeline will make the code remarkably straightforward.
+
 - 
+
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+
+my_pipeline = Pipeline(steps=[('preprocessor', SimpleImputer()),
+                              ('model', RandomForestRegressor(n_estimators=50,
+                                                              random_state=0))
+                             ])
+
+
 - 
 - 
 - 
