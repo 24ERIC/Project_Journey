@@ -28,3 +28,31 @@ Mutual information is a great general-purpose metric and especially useful at th
 X_2 = pd.get_dummies(df.BldgType, prefix="Bldg")
 X_2 = X_2.mul(df.GrLivArea, axis=0)
 
+
+X_5 = pd.DataFrame()
+
+X_5["MedNhbdArea"] = df.groupby("Neighborhood")["GrLivArea"].transform("median")
+
+
+
+
+X = df.copy()
+y = X.pop("SalePrice")
+
+features = [
+    "LotArea",
+    "TotalBsmtSF",
+    "FirstFlrSF",
+    "SecondFlrSF",
+    "GrLivArea",
+]
+
+# Standardize
+X_scaled = X.loc[:, features]
+X_scaled = (X_scaled - X_scaled.mean(axis=0)) / X_scaled.std(axis=0)
+
+kmeans = KMeans(n_clusters=10, n_init=10, random_state=0)
+X["Cluster"] = kmeans.fit_predict(X_scaled)
+
+
+
