@@ -662,8 +662,25 @@ mae_1 = mean_absolute_error(predictions_1, y_valid)
 print("Mean Absolute Error:" , mae_1)
 - 
 - 
+- Step 2: Improve the model
+
+Now that you've trained a default model as baseline, it's time to tinker with the parameters, to see if you can get better performance!
+
+    Begin by setting my_model_2 to an XGBoost model, using the XGBRegressor class. Use what you learned in the previous tutorial to figure out how to change the default parameters (like n_estimators and learning_rate) to get better results.
+    Then, fit the model to the training data in X_train and y_train.
+    Set predictions_2 to the model's predictions for the validation data. Recall that the validation features are stored in X_valid.
+    Finally, use the mean_absolute_error() function to calculate the mean absolute error (MAE) corresponding to the predictions on the validation set. Recall that the labels for the validation data are stored in y_valid.
+
+In order for this step to be marked correct, your model in my_model_2 must attain lower MAE than the model in my_model_1.
+
 - 
-- 
+Introduction
+
+Data leakage (or leakage) happens when your training data contains information about the target, but similar data will not be available when the model is used for prediction. This leads to high performance on the training set (and possibly even the validation data), but the model will perform poorly in production.
+
+In other words, leakage causes a model to look accurate until you start making decisions with the model, and then the model becomes very inaccurate.
+
+There are two main types of leakage: target leakage and train-test 
 - 
 - 
 - 
