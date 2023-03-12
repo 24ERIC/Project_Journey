@@ -1,7 +1,6 @@
 # 15-Linux-Modules.md
 
-- 
-- 
+- du
 - 
 - 
 - 
