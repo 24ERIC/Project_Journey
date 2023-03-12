@@ -287,7 +287,6 @@ hacking
     - ## Tryhackme
         - Basics Rooms
             - [Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
-                - [15-Basic-Pentesting.md](./15/15-Basic-Pentesting.md)
             - [Pentesting Fundamentals](https://tryhackme.com/room/pentestingfundamentals)
             - [Principles of Security](https://tryhackme.com/room/principlesofsecurity)
             - [The Hacker Methodology](https://tryhackme.com/room/hackermethodology)
