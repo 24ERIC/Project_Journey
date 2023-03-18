@@ -9,20 +9,18 @@ git add -A && git commit -m "update" && git push
 - [Use ML - ML software develop, deploy and maintai](https://github.com/GokuMohandas/mlops-course)
 - [ML beginner Lesson](https://github.com/microsoft/ML-For-Beginners)
 - [Research Paper - ML](https://github.com/eugeneyan/applied-ml)
-
-
-hacking
-
 -->
 
+- # Hobby: Penetration Tester
+    - 
+    - 
+    - 
+    - 
 - # Job: Machine Learning Engineer
     - 
     - 
     - 
     - 
     - 
-- # Hobby: Penetration Tester
-    - 
-    - 
-    - 
-    - 
+
+[Past README](./archive/README.md)
