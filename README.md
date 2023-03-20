@@ -16,3 +16,4 @@
 | 12 | ✅ | [React-Master](https://github.com/24ERIC/React-Master) | Practise how to quickly create a website, (10 mins a website) | Feb.22-27 2023 | 1 |
 | 13 | ✅ | [“CatCaptions”](https://github.com/24ERIC/CatCaptions) | The project is an incredibly powerful AI backend that generates context right from the picture and NLP model to use the context to generate captions. | Feb.24 2023 | 4 |
 | 14 | ✅ | [SpeakChess](https://github.com/24ERIC/SpeakChess) | The project implemesnts text-to-speech and speech-to-text to help players who experiencing disabilities to play chess normally. | Mar.4-5 2023 | 4 |
+| 15 | ✅ | [SustainaBuy](https://github.com/24ERIC/SustainaBuy-UTMIST2023) | SustainaBuy is a Chrome extension applies OpenAI Model to analyze the sustainability score of any online product, and it also provides detailed analysis, three alternative products, and reward points. | Mar.18-19 2023 | 4 |
