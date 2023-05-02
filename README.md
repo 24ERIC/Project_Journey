@@ -19,3 +19,6 @@
 | 15 | ✅ | [SustainaBuy](https://github.com/24ERIC/SustainaBuy-UTMIST2023) | SustainaBuy is a Chrome extension applies OpenAI Model to analyze the sustainability score of any online product, and it also provides detailed analysis, three alternative products, and reward points. | Mar.18-19 2023 | 4 |
 | 16 | ✅ | [CyberGuardian](https://github.com/24ERIC/EWB) | 1st Place Winner in 2023 Engineers without Borders CEDE Inperson Hackathon during Mar 25-26 (Prize: $600 in Amazon Gift Cards) | Mar.25-26 2023 | 3 |
 | 17 | ✅ | [DataDefender](https://github.com/24ERIC/MLH-All-In) | 1st Place Winner in 2023 MLH All In Online Hackathon during Mar 25-26 (Prize: Blue Snowball Microphone) | Mar.25-26 2023 | 5 |
+| 18 | ✅ | [AdmitEsay](https://github.com/24ERIC/AdmitEasy) | Deerhacks 2023 Post Secondary Admissions Website, provided Personal Advisor, Essay & Résumé Review  | Apr.28-30 2023 | 4 |
+| 19 | ✅ | [AdmitEsay](https://github.com/24ERIC/AdmitEasy) | PromptHacks 2023 Post Secondary Admissions Website, provided Personal Advisor, Essay & Résumé Review  | Apr.28-30 2023 | 4 |
+| 20 | ✅ | [AdmitEsay](https://github.com/24ERIC/AdmitEasy) | Treasure Hacks 3.5, Post Secondary Admissions Website, provided Personal Advisor, Essay & Résumé Review  | Apr.28-30 2023 | 4 |
