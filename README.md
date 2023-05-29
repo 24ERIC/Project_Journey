@@ -24,3 +24,4 @@
 | 20 | ✅ | [AdmitEsay](https://github.com/24ERIC/AdmitEasy) | Treasure Hacks 3.5, Post Secondary Admissions Website, provided Personal Advisor, Essay & Résumé Review  | Apr.28-30 2023 | 4 |
 | 21 | ✅ | [LocalChain Catalyst](https://github.com/24ERIC/LocalChain-Catalyst) | OlympiHacks in Waterloo Blockchain, Empowering Blockchain Innovators: Streamline Proposal Submission, Voting, and Milestone Tracking for a Collaborative Community | May.19-21 2023 | 4 |
 | 22 | ✅ | [LocalChain Catalyst](https://github.com/24ERIC/LocalChain-Catalyst) | NeighborhoodHacks (MLH Online Hackathon), Empowering Blockchain Innovators: Streamline Proposal Submission, Voting, and Milestone Tracking for a Collaborative Community | May.19-21 2023 | 4 |
+| 23 | ✅ | [Summarizer](https://github.com/24ERIC/GryphHacks2023) | Gryphhacks (online), Effortless Summaries for Documents and Videos: Unlock Insights, Save Time! | May.26-28 2023 | 4 |
