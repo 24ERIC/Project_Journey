@@ -25,3 +25,4 @@
 | 21 | ✅ | [LocalChain Catalyst](https://github.com/24ERIC/LocalChain-Catalyst) | OlympiHacks in Waterloo Blockchain, Empowering Blockchain Innovators: Streamline Proposal Submission, Voting, and Milestone Tracking for a Collaborative Community | May.19-21 2023 | 4 |
 | 22 | ✅ | [LocalChain Catalyst](https://github.com/24ERIC/LocalChain-Catalyst) | NeighborhoodHacks (MLH Online Hackathon), Empowering Blockchain Innovators: Streamline Proposal Submission, Voting, and Milestone Tracking for a Collaborative Community | May.19-21 2023 | 4 |
 | 23 | ✅ | [Summarizer](https://github.com/24ERIC/GryphHacks2023) | Gryphhacks (online), Effortless Summaries for Documents and Videos: Unlock Insights, Save Time! | May.26-28 2023 | 4 |
+| 24 | ✅ | [Repute](https://github.com/24ERIC/ETHWaterloo_Repute) | ETHWaterloo (inperson), a non-custodial OTC escrow service for special situations opportunities | Jun.23-25 2023 | 3 |
